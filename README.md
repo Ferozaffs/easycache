@@ -12,8 +12,10 @@
   <img alt="Go" src="https://img.shields.io/badge/Go-1.22-00ADD8?logo=go&logoColor=white"/>
   <img alt="License" src="https://img.shields.io/badge/license-MIT-blue"/>
   <img alt="status" src="https://img.shields.io/badge/status-vibecoded-purple"/>
-  <img alt="AI lab" src="https://img.shields.io/badge/AI%20lab-DeepSeek%20V4%20Flash-violet"/>
+  <img alt="test bed" src="https://img.shields.io/badge/vibecoded-DeepSeek%20V4%20Flash-violet"/>
 </p>
+
+<p align="center"><b>Vibe-coded end to end, as a test bed for DeepSeek V4 Flash.</b></p>
 
 ---
 
@@ -100,9 +102,3 @@ Use `--network host` (already set in `docker-compose.yml`) so mDNS works on the 
 ## License
 
 [MIT](LICENSE)
-
----
-
-<p align="center">
-  Built by an <b>AI lab</b>, vibe-coded end to end, as a test bed for <b>DeepSeek V4 Flash</b>.
-</p>
