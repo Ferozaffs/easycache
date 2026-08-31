@@ -1,0 +1,23 @@
+services:
+  easycache:
+    build: .
+    image: easycache:local
+    container_name: easycache
+    restart: unless-stopped
+    # Host networking is required so the container can announce and browse
+    # mDNS/zero-config on the same LAN as your clients.
+    network_mode: host
+    environment:
+      - CACHE_ADDR=:8765
+      - CACHE_DIR=/var/cache
+      - CACHE_NAME=easycache
+    volumes:
+      - easycache-data:/var/cache
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "3"
+
+volumes:
+  easycache-data:
