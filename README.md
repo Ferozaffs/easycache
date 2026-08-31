@@ -1,3 +1,5 @@
+<p align="center"><b>Vibe-coded end to end, as a test bed for DeepSeek V4 Flash.</b></p>
+
 <p align="center">
   <img src="assets/logo.svg" alt="EasyCache" width="640"/>
 </p>
@@ -14,8 +16,6 @@
   <img alt="status" src="https://img.shields.io/badge/status-vibecoded-purple"/>
   <img alt="test bed" src="https://img.shields.io/badge/vibecoded-DeepSeek%20V4%20Flash-violet"/>
 </p>
-
-<p align="center"><b>Vibe-coded end to end, as a test bed for DeepSeek V4 Flash.</b></p>
 
 ---
 
@@ -50,7 +50,7 @@ First `get` downloads it and seeds the cache; every `get` after is a **cache hit
 
 | Command | What it does |
 |---------|--------------|
-| `get <url|sha256> [out]` | **The one command.** URL: hit→copy from cache, miss→download once + seed. sha256: pull a blob by its exact content hash. |
+| `get <url\|sha256> [out]` | **The one command.** URL: hit→copy from cache, miss→download once + seed. sha256: pull a blob by its exact content hash. |
 | `check <file>` | "Is my local file already cached?" (reads ≤128 KB) |
 | `put <file>` | Seed a local file (exact-hash check first) |
 | `hash <file>` | Print size + partial signature + full SHA-256 |
